@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#resetButton, .label {
+    -fx-font-family: 'Bebas Neue', cursive;
+}
 .root {
     -fx-background-color: rgba(132, 129, 129, 0.067);
 }
 
 .button {
     -fx-background-color: white;
+}
+
+#resetButton {
+    
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #14dccb, #32b1cd);
 }
