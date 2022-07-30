@@ -20,6 +20,8 @@ This project was built using JavaFX and therefore requires the Java SDK(version 
 ## Usage 
 ---
 
+ Run TicTacToe.jar by double clicking the file. Make sure to have Java SDK 9+ installed. 
+
  Images:
   ![screenshot 1](tictactoe-screenshot.png)
   ![screenshot 2](tictactoe-screenshot-2.png)
