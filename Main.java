@@ -11,8 +11,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("tictactoe.fxml"));
-        primaryStage.setTitle("Hello World");
-        Scene scene  = new Scene(root, 800, 600);
+        primaryStage.setTitle("Tic Tac Toe");
+        Scene scene  = new Scene(root, 600, 600);
         scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.show();
